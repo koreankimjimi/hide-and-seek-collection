@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#map{
+    width:400px;
+    height: 400px;
+    border: #444 solid 10px;
+    position: relative;
+    overflow: hidden;
+}
+#map>div{
+    width:10px;
+    height: 10px;
+}
+#map>div[target = block]{
+    position: absolute;
+    border-radius: 50%;
+    background: #444;
+    display: none;
+    width: 10px;
+    height: 10px;
+}
+#user{
+    width:10px;
+    height: 10px;
+    background: red;
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    left: 10px;
+}
+#user2{
+    width:10px;
+    height: 10px;
+    background: blue;
+    position: absolute;
+    z-index: 10;
+    top: 100px;
+    left: 100px;
+}
+
+
